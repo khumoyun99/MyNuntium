@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_graph"
+    app:startDestination="@id/onboardingFragment">
+
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.example.mynuntium.ui.OnboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" >
+        <action
+            android:id="@+id/action_onboardingFragment_to_wellcomeScreenFragment"
+            app:destination="@id/wellcomeScreenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectTopicFragment"
+        android:name="com.example.mynuntium.ui.SelectTopicFragment"
+        android:label="fragment_select_topic"
+        tools:layout="@layout/fragment_select_topic" >
+        <action
+            android:id="@+id/action_selectTopicFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wellcomeScreenFragment"
+        android:name="com.example.mynuntium.ui.WellcomeScreenFragment"
+        android:label="fragment_wellcome_screen"
+        tools:layout="@layout/fragment_wellcome_screen" >
+        <action
+            android:id="@+id/action_wellcomeScreenFragment_to_selectTopicFragment"
+            app:destination="@id/selectTopicFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mynuntium.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>

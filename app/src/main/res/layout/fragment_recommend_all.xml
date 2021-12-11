@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.RecommendAllFragment">
+
+    <TextView
+        android:id="@+id/recommend1_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recommend News"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recommend1_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        tools:itemCount="5"
+        tools:listitem="@layout/item_recommend_rv"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+
+
+
+</LinearLayout>

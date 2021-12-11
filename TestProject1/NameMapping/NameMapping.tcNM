@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{0346C33F-96A4-4462-934B-D94CD4FE34B0}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{6770FCF8-4B66-4750-8DBC-89DD319A67FF}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{C3B77EBA-7463-4CEC-BE67-B878E950E319}">
+								<Image FileName="194036030" Left="0" Top="0" Right="1366" Bottom="30" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{B87FEBB2-AFCB-49C9-BC47-745698167320}">
+										<Image FileName="194036030" Left="70" Top="0" Right="1120" Bottom="30" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{946F3514-EAE1-404F-A9EA-3411DDD2F29B}">
+												<Image FileName="194036030" Left="72" Top="0" Right="1120" Bottom="30" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{4D9A0F23-E74B-47E0-BA3A-EF01A12CDF02}">
+														<Image FileName="194036030" Left="72" Top="0" Right="1120" Bottom="30" />
+														<TypeInfo Item0="{D10D4281-FD20-42EB-AD2F-1D2FCA545EA3}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="studio64" Key="{DA6E15E7-2C01-45D4-B4A1-222B89CD26A4}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="studio64" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="IdeFrameImpl" Key="{C09A7B49-7AD2-484C-A3F6-2C4E0515A9A1}">
+								<Image FileName="-206314703" Left="0" Top="0" Right="1366" Bottom="750" />
+								<TypeInfo Item0="{D6223A87-81AC-4449-8328-8F4FF0AC19FC}" />
+								<Properties>
+									<Property Name="JavaFullClassName">
+										<Value Value="com.intellij.openapi.wm.impl.IdeFrameImpl" />
+									</Property>
+									<Property Name="AWTComponentAccessibleName">
+										<Value Value="MyNuntium - Android Studio" />
+									</Property>
+									<Property Name="AWTComponentIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{6770FCF8-4B66-4750-8DBC-89DD319A67FF}">
+			<Child Name="wndShell_TrayWnd" Owner="{C3B77EBA-7463-4CEC-BE67-B878E950E319}">
+				<Child Name="ReBarWindow32" Owner="{B87FEBB2-AFCB-49C9-BC47-745698167320}">
+					<Child Name="MSTaskSwWClass" Owner="{946F3514-EAE1-404F-A9EA-3411DDD2F29B}">
+						<Child Name="MSTaskListWClass" Owner="{4D9A0F23-E74B-47E0-BA3A-EF01A12CDF02}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="studio64" Owner="{DA6E15E7-2C01-45D4-B4A1-222B89CD26A4}">
+			<Child Name="IdeFrameImpl" Owner="{C09A7B49-7AD2-484C-A3F6-2C4E0515A9A1}" />
+		</Child>
+	</LogicalNodes>
+</Root>
